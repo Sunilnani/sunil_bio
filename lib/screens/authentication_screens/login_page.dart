@@ -19,6 +19,63 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
 
 
+  // SearchCategoryModel? popularfood_model;
+  //
+  // void populardata() async {
+  //   try {
+  //     var responce = await Dio()
+  //         .get("http://jayanthi10.pythonanywhere.com/api/v1/categories/");
+  //     setState(() {
+  //       popularfood_model = searchCategoryModelFromJson(jsonEncode(responce.data));
+  //
+  //       print("${responce.data}");
+  //     });
+  //   } catch (e) {
+  //     setState(() {});
+  //     print(e);
+  //   }
+  // }
+  //
+  // @override
+  // void initState() {
+  //   // TODO: implement initState
+  //   populardata();
+  // }
+
+
+  // void formLogin() async {
+  //   String product_name = productNameController.text.trim();
+  //   String description = descriptionController.text.trim();
+  //   //String image = imageController.text.trim();
+  //
+  //   FormData formData = FormData.fromMap({
+  //     "product_name": product_name,
+  //     "description": description,
+  //     "image": MultipartFile.fromBytes(
+  //       await insidePic!.readAsBytes(),
+  //       filename: insidePic?.name,
+  //     ),
+  //   });
+  //
+  //   setState(() {});
+  //
+  //   var responce = await Dio().post(
+  //       'http://jayanthi10.pythonanywhere.com/api/v1/add_products/',
+  //       data: formData);
+  //
+  //   if (responce.statusCode == 200) {
+  //     Navigator.push(
+  //         context, MaterialPageRoute(builder: (context) => dashbord_page()));
+  //
+  //     setState(() {
+  //       _loading = true;
+  //     });
+  //   } else {
+  //     print("please add  the product ");
+  //   }
+  // }
+
+
   Future<void> storeCredentials(String username, String password) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setString('username', username);
