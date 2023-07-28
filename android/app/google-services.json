@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "656647556552",
+    "project_id": "sunil-bio",
+    "storage_bucket": "sunil-bio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656647556552:android:7cdd68f2d633729e99c4fd",
+        "android_client_info": {
+          "package_name": "com.example.sunil_bio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656647556552-ehefu95afpeiifikrj793tpkg0hk26hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnKFzLuuNj93pOww1bVtFWa_lFZGw9Jd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656647556552-ehefu95afpeiifikrj793tpkg0hk26hs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
